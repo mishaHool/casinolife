@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="/fav.png" />
+
+    <link rel="preload" href="css/style1.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300i,400i,600,600i,700,700italic,800,800italic|Open+Sans+Condensed:300,300italic,700|Montserrat:400,700|Russo+One|Orbitron:400,500,700,900|Oswald&display=swap" as="style">
+    <link rel="preload" href="img/logo-new.webp" as="image">
+    <link rel="stylesheet" href="/css/style6.css">
+    <link rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300i,400i,600,600i,700,700italic,800,800italic|Open+Sans+Condensed:300,300italic,700|Montserrat:400,700|Russo+One|Orbitron:400,500,700,900|Oswald&display=swap">
+    <link rel="preload" href="js/js1.min.js" as="script">
+    <link rel="preload" href="js/js2.min.js" as="script">
+    <link rel="preload" href="js/js3.js" as="script">
+
+    <link rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;" href="css/style5.css">
+
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300i,400i,600,600i,700,700italic,800,800italic|Open+Sans+Condensed:300,300italic,700|Montserrat:400,700|Russo+One|Orbitron:400,500,700,900|Oswald&display=swap">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/style4.css"> </noscript>
+
+</head>
+
+<body>
+    <script>
+        if (!readCookie('terms-accepted')) {
+            startCookies();
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var quicknaviPrimary = document.querySelector('.quicknavi-primary');
+
+            if (typeof(quicknaviPrimary) != 'undefined' && quicknaviPrimary != null) {
+                var clone = quicknaviPrimary.cloneNode(true);
+                var content = document.querySelector('.content');
+
+                clone
+                    .classList
+                    .add('cloned');
+
+                content.insertBefore(clone, content.firstChild);
+            }
+        });
+
+        function startCookies() {
+            var cookie = document.createElement('div');
+
+            cookie
+                .classList
+                .add('cookie');
+
+            cookie.innerHTML = '<div class="container"><p>By visiting our website, you agree to our <a href="/terms-conditions/" target="_blank">Terms of Use</a>, our <a href="/privacy-policy/" target="_blank">Privacy Policy</a>, and our <a href="/privacy-policy/#cookies" target="_blank">Cookies Policy</a>.  Our website contains advertisement. You must be lawfully permitted to gamble in your country of access.</p><div class="actions"><a href="#" id="cookie-accept">OK</a></div></div>';
+
+            document
+                .body
+                .appendChild(cookie);
+
+            document
+                .getElementById('cookie-accept')
+                .addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    createCookie('terms-accepted', true, 365);
+
+                    document
+                        .querySelector('.cookie')
+                        .classList
+                        .add('is-accepted');
+                });
+        }
+
+        function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        function createCookie(name, value, days) {
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                var expires = "; expires=" + date.toGMTString();
+            } else var expires = "";
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+        1
+    </script>
+    <script>
+        var elems = {
+            "geopopup": false,
+            "welcome-text": "<span id=\"welcome-text\" class=\"ico-flag-ukraine\">Greetings to Ukraine!<\/span>",
+            "countrycode": "UA",
+            "country": "Ukraine"
+        };
+    </script>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-logo">
+                <a href="/canada/">BestCasinoSites.net</a>
+            </div>
+
+            <nav class="site-nav">
+                <ul>
+                    <li>
+                        <a href="/canada/" class="trophy">Best Online Casinos</a>
+
+                        <div class="site-nav-dropdown">
+                            <div class="inner">
+                                <div class="inner-title blue guides"><span>Casino Guides</span> <small>Become a gambling expert!</small></div>
+
+                                <ul>
+                                    <li>
+                                        <a href="canada.html" class="slot-sites">Online Casino Canada</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="india.html" class="roulette-sites">Online Casino India</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="philippines.html" class="blackjack-sites">Online Casino Philippines</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="nz.html" class="new-casinos">Online Casino NZ</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="ireland.html" class="mobile-casinos">Online Casino Ireland</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="deutsch.html" class="safe-online-casinos">Online Casino DE</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="inner">
+                                <div class="inner-title green dice"><span>Other Gambling Products</span> <small>Find even more entertainment</small></div>
+
+                                <ul>
+                                    <li>
+                                        <a href="/canada/sports-betting/" class="betting-sites">Betting Sites</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/canada/poker/" class="poker-sites">Poker Sites</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/canada/lotto/" class="lotto-sites">Lotto Sites</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/canada/gambling/" class="gambling-sites">Gambling Sites</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/canada/daily-fantasy/" class="gambling-sites">Daily Fantasy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="/canada/real-money/" class="coin-dollar">Real Money</a>
+
+                        <div class="site-nav-dropdown">
+                            <div class="inner">
+                                <div class="inner-title blue shield"><span>Payment Methods</span> <small>Safe Transactions Online</small></div>
+
+                                <ul>
+                                    <li>
+                                        <a href="/canada/paypal/" class="paypal">PayPal</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="/canada/bitcoin/" class="bitcoin">Bitcoin</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="inner">
+                                <div class="inner-title green coins"><span>Bet Size</span> <small>Casinos Suited to Your Bankroll</small></div>
+
+                                <ul>
+                                    <li>
+                                        <a href="/canada/high-roller/" class="high-stakes">High Stakes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="highlight">
+                        <a href="/canada/bonus/" class="present">Casino Bonus</a>
+                    </li>
+
+                    <li>
+                        <a href="/canada/live/" class="dealer">Live Casinos</a>
+                    </li>
+
+                    <li>
+                        <a href="/blog/" class="blog">Blog</a>
+                    </li>
+                </ul>
+
+                <button class="nav-btn"><span>Toggle Navigation</span></button>
+            </nav>
+        </div>
+    </header>
+
+    <article class="article-new">
+        <section>
+
+            <div class="intro-alt intro-primary">
+                <div class="shell">
+                    <h1>The Best Online Casino Sites &#8211; The Ultimate Guide for 2021</h1>
+                    <div class="intro-entry">Are you looking for the <strong>best online casino</strong> has to offer? Consider this page your bookmarkable guiding light; your starting point for learning <span>everything about Canadian online casinos. The most valuable information is stacked up and organised for your amusement and convenience. </span></div>
+                    <div class="intro-collapse">
+                        <h2 id="best-for">The Best Online Casinos for 2021</h2>
+                        <ol class="centered">
+                            <li>JackpotCity Casino (Best Real Money Play for Canadian Players)</li>
+                            <li>Europa Casino (Top Payment Methods for Live Casino Games)</li>
+                            <li>Betway Casino (Best Online Gambling Site for Canadians)</li>
+                            <li>Royal Panda (Best Payout for Online Slots &#038; Free Spins)</li>
+                            <li>ComeOn! (Top Bonus Offers for Low Stakes Players)</li>
+                            <li>888casino (Great Selection of Online Casino Games)</li>
+                            <li>Royal Vegas (One of the Top Mobile Casino Sites)</li>
+                            <li>LeoVegas (Top-Rated Real Cash Gambling Experience)</li>
+                            <li>Casoola (Best Online Casino Site for Loyal Canadian Players)</li>
+                            <li>Betsafe (Among the Best Canadian Jackpot Casinos Online)</li>
+                        </ol>
+                        <h2>Top 10 Canadian Online Casinos</h2>
+                        <div class="table-striped">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Casino</th>
+                                        <th>Bonus</th>
+                                        <th>Rating</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Royal Panda Casino</td>
+                                        <td>C$1000 + 10 Free Spins</td>
+                                        <td>4.90</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Betway Casino</td>
+                                        <td>Up to C$1000 for New Players</td>
+                                        <td>4.95</td>
+                                    </tr>
+                                    <tr>
+                                        <td>comeon! Casino</td>
+                                        <td>C$1500 + 300 Free Spins</td>
+                                        <td>4.90</td>
+                                    </tr>
+                                    <tr>
+                                        <td>JackpotCity Casino</td>
+                                        <td>Up to C$1600 on First 4 Deposits</td>
+                                        <td>5.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Europa Casino</td>
+                                        <td>Up to C$2400</td>
+                                        <td>4.95</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>888casino</td>
+                                        <td>Up to C$1500 CODE: welcome1</td>
+                                        <td>4.85</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Royal Vegas Online Casino</td>
+                                        <td>Up to C$1200 Welcome Offer</td>
+                                        <td>4.80</td>
+                                    </tr>
+                                    <tr>
+                                        <td>LeoVegas Casino</td>
+                                        <td>Up to C$1000 + 200 Free Spins</td>
+                                        <td>4.75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Casoola Casino</td>
+                                        <td>C$1500 + 200 Free Spins</td>
+                                        <td>4.70</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Betsafe Casino</td>
+                                        <td>100% Up to C$1000 + 50 Free Spins</td>
+                                        <td>4.70</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="quicknavi-alt quicknavi-primary">
+                    <div class="quicknavi-group">
+                        <ul>
+                            <li><a href="#top-10">🥇 Best Online Casino</a></li>
+                            <li><a href="#games">🎲 Casino Games in </a></li>
+                            <li><a href="#live">🎡 Best Live Casino Games in </a></li>
+                            <li><a href="#apps">📱 Top  Casino Apps</a></li>
+                            <li><a href="#bonus">💰 Top Bonus Offers</a></li>
+                            <li><a href="#payment">💳 Banking Options</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+
+            <div class="welcomebox">
+                <div class="text"><span id="welcome-text" class="ico-flag-ukraine">Greetings to Ukraine!</span> Read All About Online Casinos in </div>
+                <div class="trust nologo"><span>All Sites Licensed and Regulated</span></div>
+                <div class="author author2">Last Updated on 16 Dec 2020 <span>by Chief Editor <a href="/contacts/harrison-newton/">Harrison Newton</a></span></div>
+            </div>
+            <h2 id="top-10">The Best Casinos Online for 2021</h2>
+            <div class="table-top">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="w-t-15 w-d-16">Casino Site</th>
+                            <th class="w-t-14 w-d-15">Welcome Bonus</th>
+                            <th class="w-t-13 w-d-11">All Games</th>
+                            <th class="w-t-13 w-d-11">Mobile</th>
+                            <th class="w-t-13 w-d-11">Live</th>
+                            <th class="w-t-11 w-d-17">Site Rating:</th>
+                            <th class="w-t-21 w-d-19">Secure Link:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tr>
+
+                        <tr>
+                            <td class="table-logo w-t-15 w-d-16"><a href="/canada/royal-panda/" class="logo logo-royal-panda"><span>4.</span> Royal Panda</a></td>
+                            <td class="table-bonus w-t-14 w-d-15" data-text-before="100% up to"><strong>C$1000</strong> + 10 Free Spins</td>
+                            <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">1800+</span></td>
+                            <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">1700+</span></td>
+                            <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">62</span></td>
+                            <td class="table-rating r49 w-t-11 w-d-17">
+                                <div><strong>4.90</strong> <span>★ out of 5</span></div>
+                            </td>
+                            <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/royal-panda-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">royalpanda.com/ca/</a></td>
+                        </tr>
+                        <tr>
+                            <td class="table-logo w-t-15 w-d-16"><a href="/canada/jackpotcity/" class="logo logo-jackpotcity"><span>1.</span> JackpotCity</a></td>
+                            <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1600</strong> on First 4 Deposits</td>
+                            <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">657</span></td>
+                            <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">343</span></td>
+                            <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">128</span></td>
+                            <td class="table-rating r5 w-t-11 w-d-17">
+                                <div><strong>5.00</strong> <span>★ out of 5</span></div>
+                            </td>
+                            <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/jackpotcity-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="highlight">www.jackpotcitycasino.com</a></td>
+
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/europa-casino/" class="logo logo-europa-casino"><span>2.</span> Europa Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$2400</strong> Welcome Bonus</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">300+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">200+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">70+</span></td>
+                                <td class="table-rating r49 w-t-11 w-d-17">
+                                    <div><strong>4.95</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/europa-casino-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">www.europacasino.com</a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/betway/" class="logo logo-betway"><span>3.</span> Betway Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1000</strong> for New Players</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">651</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">299</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">119</span></td>
+                                <td class="table-rating r49 w-t-11 w-d-17">
+                                    <div><strong>4.95</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/betway-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">www.betway.com</a></td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/888-casino/" class="logo logo-888"><span>6.</span> 888casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1500</strong> with code: welcome1</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">700+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">494</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">138</span></td>
+                                <td class="table-rating r48 w-t-11 w-d-17">
+                                    <div><strong>4.85</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/888casino-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">www.888casino.com</a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/royal-vegas/" class="logo logo-royal-vegas"><span>7.</span> Royal Vegas Online Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1200</strong> Welcome Package</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">650+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">500+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">41</span></td>
+                                <td class="table-rating r48 w-t-11 w-d-17">
+                                    <div><strong>4.80</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/royal-vegas-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">ca.royalvegascasino.com</a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/comeon/" class="logo logo-comeon"><span>5.</span> ComeOn Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1500</strong> + 300 Free Spins</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">500+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">400+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">23</span></td>
+                                <td class="table-rating r49 w-t-11 w-d-17">
+                                    <div><strong>4.90</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/comeon-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">comeon.com</a></td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/casoola/" class="logo logo-casoola"><span>9.</span> Casoola Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1,500</strong> + 200 Free Spins</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">1000+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">900+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">100+</span></td>
+                                <td class="table-rating r47 w-t-11 w-d-17">
+                                    <div><strong>4.70</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/casoola-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">www.casoola.com</a></td>
+                            </tr>
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/betsafe/" class="logo logo-betsafe"><span>10.</span> Betsafe Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="100% Up to"><strong>C$1000</strong> + 50 Free Spins</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">1585</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">1389</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">147</span></td>
+                                <td class="table-rating r47 w-t-11 w-d-17">
+                                    <div><strong>4.70</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/betsafe-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">www.betsafe.com</a></td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-logo w-t-15 w-d-16"><a href="/canada/leovegas/" class="logo logo-leovegas"><span>8.</span> LeoVegas Casino</a></td>
+                                <td class="table-bonus w-t-14 w-d-15" data-text-before="Up to"><strong>C$1000</strong> + 200 Free Spins</td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline other-games">450+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline mobile">400+</span></td>
+                                <td class="table-info w-t-13 w-d-11"><span class="table-icon icon-inline live">25+</span></td>
+                                <td class="table-rating r48 w-t-11 w-d-17">
+                                    <div><strong>4.75</strong> <span>★ out of 5</span></div>
+                                </td>
+                                <td class="table-actions w-t-21 w-d-19"><a href="/-/canada/leovegas-main" target="_blank" rel="nofollow " data-text-before="Visit Site" class="check">www.leovegas.com</a></td>
+                            </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </article>
+
+</body>
+
+</html>
