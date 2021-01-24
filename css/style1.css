@@ -14872,7 +14872,7 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/betshop-v2@2x.png)
     }
     .logo-royal-vegas:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/royal-vegas@2x.png)
+        background-image: url(/img/royal-vegas@2x.png)
     }
     .logo-royal-vegas-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/royal-vegas-v2@2x.png)
@@ -15052,7 +15052,7 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/titanbet-v2@2x.png)
     }
     .logo-jackpotcity:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/jackpot-city-casino@2x.png)
+        background-image: url(/img/jackpot-city-casino@2x.png)
     }
     .logo-jackpotcity-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/jackpot-city-casino-v2@2x.png)
@@ -15067,13 +15067,13 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/lucky-dino@2x.png)
     }
     .logo-888:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/888@2x.png)
+        background-image: url(/img/888@2x.png)
     }
     .logo-888-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/888-v2@2x.png)
     }
     .logo-betway:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/betway@2x.png)
+        background-image: url(/img/betway@2x.png)
     }
     .logo-betway-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/betway-v2@2x.png)
@@ -15103,7 +15103,7 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/bgo-v2@2x.png)
     }
     .logo-royal-panda:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/royal-panda@2x.png)
+        background-image: url(/img/royal-panda@2x.png)
     }
     .logo-royal-panda-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/royal-panda-v2@2x.png)
@@ -15151,7 +15151,7 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/unibet-v2@2x.png)
     }
     .logo-betsafe:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/betsafe@2x.png)
+        background-image: url(/img/betsafe@2x.png)
     }
     .logo-betsafe-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/betsafe-v2@2x.png)
@@ -15594,7 +15594,7 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/casino-god@2x.png)
     }
     .logo-casoola:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/casoola@2x.png)
+        background-image: url(/img/casoola@2x.png)
     }
     .logo-casoola-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/casoola-v2@2x.png)
@@ -16010,7 +16010,7 @@ only screen and (min-resolution:192dpi) {
     .logo-888:not(.logo-sm):not(.logo-md),
     .logo-888-casino:not(.logo-sm):not(.logo-md),
     .logo-888-casino-v2:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/888@2x.png)
+        background-image: url(/img/888@2x.png)
     }
     .logo-leovegas:not(.logo-sm):not(.logo-md),
     .logo-leovegas-v2:not(.logo-sm):not(.logo-md) {
@@ -16201,7 +16201,7 @@ only screen and (min-resolution:192dpi) {
         background-image: url(/wp-content/themes/modular/css/casinos/comeon-v2@2x.png)
     }
     .logo-comeon:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/comeon@2x.png)
+        background-image: url(/img/comeon@2x.png)
     }
     .logo-supercasino-v2:not(.logo-sm):not(.logo-md) {
         background-image: url(/wp-content/themes/modular/css/casinos/supercasino-v2@2x.png)
@@ -17260,7 +17260,7 @@ only screen and (min-resolution:192dpi) {
     }
     .logo-europa-casino:not(.logo-sm):not(.logo-md),
     .logo-vulkanvegas:not(.logo-sm):not(.logo-md) {
-        background-image: url(/wp-content/themes/modular/css/casinos/europa-casino@2x.png)
+        background-image: url(/img/europa-casino@2x.png)
     }
     .logo-europa-casino-v2:not(.logo-sm):not(.logo-md),
     .logo-vulkanvegas:not(.logo-sm):not(.logo-md) {
@@ -20939,7 +20939,7 @@ only screen and (min-resolution:192dpi) {
         font-size: 13px;
         color: #fff;
         text-align: center;
-        background: url(/wp-content/themes/modular/css/images/star-rating.png) no-repeat center bottom / 14px 14px;
+        background: url(/img/star-rating.png) no-repeat center bottom / 14px 14px;
         z-index: 2
     }
     .table-top thead,
@@ -22485,7 +22485,7 @@ only screen and (min-resolution:192dpi) {
     width: 16px;
     height: 20px;
     margin-right: 5px;
-    background: url(/wp-content/themes/modular/css/welcome/secure1.png) no-repeat 0 0
+    background: url(/img/secure1.png) no-repeat 0 0
 }
 
 .welcomebox>.trust.nologo span:after {

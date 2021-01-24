@@ -6257,7 +6257,7 @@ only screen and (min-resolution:192dpi) {
         left: -5px;
         border-radius: 50%;
         box-shadow: 6px 6px 7px rgba(28, 48, 65, .5);
-        background: url(/wp-content/themes/modular/css/images/star-highlight.png) no-repeat 0 0 / 100% 100%;
+        background: url(/img/star-highlight.png) no-repeat 0 0 / 100% 100%;
         z-index: 3
     }
     .site-nav .has-dd {
@@ -6325,10 +6325,10 @@ only screen and (min-resolution:192dpi) {
 only screen and (min-device-pixel-ratio:2),
 only screen and (min-resolution:192dpi) {
     .site-nav>ul>li>a:before {
-        background: url(/wp-content/themes/modular/css/images/nav-mobile-assets@2x.png), rgb(37, 92, 131);
-        background: url(/wp-content/themes/modular/css/images/nav-mobile-assets@2x.png), -moz-linear-gradient(top, rgba(37, 92, 131, 1) 0%, rgba(34, 58, 79, 1) 100%);
-        background: url(/wp-content/themes/modular/css/images/nav-mobile-assets@2x.png), -webkit-linear-gradient(top, rgba(37, 92, 131, 1) 0%, rgba(34, 58, 79, 1) 100%);
-        background: url(/wp-content/themes/modular/css/images/nav-mobile-assets@2x.png), linear-gradient(to bottom, rgba(37, 92, 131, 1) 0%, rgba(34, 58, 79, 1) 100%);
+        background: url(/img/nav-mobile-assets@2x.png), rgb(37, 92, 131);
+        background: url(/img/nav-mobile-assets@2x.png), -moz-linear-gradient(top, rgba(37, 92, 131, 1) 0%, rgba(34, 58, 79, 1) 100%);
+        background: url(/img/nav-mobile-assets@2x.png), -webkit-linear-gradient(top, rgba(37, 92, 131, 1) 0%, rgba(34, 58, 79, 1) 100%);
+        background: url(/img/nav-mobile-assets@2x.png), linear-gradient(to bottom, rgba(37, 92, 131, 1) 0%, rgba(34, 58, 79, 1) 100%);
         background-size: 360px 60px
     }
 }
@@ -6551,7 +6551,7 @@ only screen and (min-resolution:192dpi) {
     width: 16px;
     height: 20px;
     margin-right: 5px;
-    background: url(/wp-content/themes/modular/css/welcome/secure1.png) no-repeat 0 0
+    background: url(/img/secure1.png) no-repeat 0 0
 }
 
 .welcomebox>.trust.nologo span:after {
@@ -7267,7 +7267,7 @@ only screen and (min-resolution:192dpi) {
     .quicknavi-primary .quicknavi-group:before {
         border: 1px solid #5d7387;
         color: #1b354c;
-        background: url(/wp-content/themes/modular/css/images/plus-alt-blue.png) no-repeat left center, url(/wp-content/themes/modular/css/images/plus-alt-blue.png) no-repeat right center, rgba(231, 238, 245, .64)
+        background: url(/img/plus-alt-blue.png) no-repeat left center, url(/img/plus-alt-blue.png) no-repeat right center, rgba(231, 238, 245, .64)
     }
     .quicknavi-primary .quicknavi-group.expanded ul {
         padding: 0
