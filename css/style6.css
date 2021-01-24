@@ -1073,7 +1073,7 @@ iframe {
 }
 
 .content table tr td span.check {
-    background-image: url(/wp-content/themes/modular/css/images/check-yes.png)
+    background-image: url(/img/check-yes.png)
 }
 
 .content table tr td span:before {
@@ -1142,7 +1142,7 @@ iframe {
     margin-left: 5px;
     display: inline-block;
     vertical-align: middle;
-    background: url(/wp-content/themes/modular/css/images/payment_cards.png) no-repeat 0 0;
+    background: url(/img/payment_cards.png) no-repeat 0 0;
     font-size: 0pt;
     line-height: 0pt;
     text-indent: -4000px
@@ -1898,7 +1898,7 @@ span.contact-logo {
 }
 
 span.contact-logo:before {
-    background: url(/wp-content/themes/modular/css/images/contacts.png);
+    background: url(/img/contacts.png);
     display: block;
     position: absolute;
     left: 0;

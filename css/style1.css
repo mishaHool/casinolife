@@ -282,7 +282,7 @@
 }
 
 .atf-box .rating:after {
-    background: url(/wp-content/themes/modular/css/images/rating-star-yellow.png) repeat-x 0 0
+    background: url(/img/rating-star-yellow.png) repeat-x 0 0
 }
 
 .atf-box .rating.r5:after,
@@ -566,7 +566,7 @@
         top: -1px;
         margin-right: 10px;
         vertical-align: middle;
-        background: url(/wp-content/themes/modular/css/images/author-harisson.png) no-repeat center center / contain
+        background: url(/img/author-harisson.png) no-repeat center center / contain
     }
     .atf-box .last-updated a {
         display: inline
@@ -2070,7 +2070,7 @@
 
 .footer-regional {
     padding-bottom: 7px;
-    background: url(/wp-content/themes/modular/css/images/footer-us-map.png) no-repeat right bottom
+    background: url(/img/footer-us-map.png) no-repeat right bottom
 }
 
 .footer-regional .footer-title {
@@ -2083,7 +2083,7 @@
     width: 18px;
     height: 18px;
     margin-top: -9px;
-    background: url(/wp-content/themes/modular/css/images/footer-us-icon.png) no-repeat 0 0
+    background: url(/img/footer-us-icon.png) no-repeat 0 0
 }
 
 .footer-nav-regions a {
@@ -2094,7 +2094,7 @@
     width: 12px;
     height: 11px;
     margin-top: -6px;
-    background: url(/wp-content/themes/modular/css/images/footer-list-star.png) no-repeat 0 0;
+    background: url(/img/footer-list-star.png) no-repeat 0 0;
     transition: background .15s
 }
 
@@ -2373,7 +2373,7 @@
     width: 25px;
     height: 25px;
     display: block;
-    background: url(/wp-content/themes/modular/css/images/icon_follow.png) no-repeat 0 0;
+    background: url(/img/icon_follow.png) no-repeat 0 0;
     font-size: 0pt;
     line-height: 0pt;
     text-indent: -4000px
@@ -2462,7 +2462,7 @@
     top: 2px;
     width: 74px;
     height: 20px;
-    background-image: url(/wp-content/themes/modular/css/images/gc-footer.png)
+    background-image: url(/img/gc-footer.png)
 }
 
 .regulatory .dga {
@@ -2476,13 +2476,13 @@
     position: relative;
     width: 77px;
     height: 25px;
-    background-image: url(/wp-content/themes/modular/css/images/ga-footer.png)
+    background-image: url(/img/ga-footer.png)
 }
 
 .regulatory .logo-18 {
     width: 25px;
     height: 25px;
-    background-image: url(/wp-content/themes/modular/css/images/18-footer.svg)
+    background-image: url(/img/18-footer.svg)
 }
 
 .footer-row.lazyload .follow-nav li a.icon-follow,
@@ -10477,7 +10477,7 @@ only screen and (min-resolution:192dpi) {
     height: 12px;
     top: 1px;
     left: 0;
-    background: url(/wp-content/themes/modular/css/images/check-yes.png) no-repeat 0 0 / 100% 100%
+    background: url(/img/check-yes.png) no-repeat 0 0 / 100% 100%
 }
 
 .list-checks li+li {
@@ -17747,7 +17747,7 @@ only screen and (min-resolution:192dpi) {
 }
 
 .authorities-box .authorities-list.payment [class^="ico-"]:before {
-    background: url(/wp-content/themes/modular/css/images/paym-logos-dark.png) no-repeat 0 0;
+    background: url(/img/paym-logos-dark.png) no-repeat 0 0;
     display: inline-block;
     font-size: 0pt;
     line-height: 0pt;
@@ -19074,7 +19074,7 @@ only screen and (min-resolution:192dpi) {
     font-size: 0;
     width: 15px;
     height: 12px;
-    background: no-repeat url(/wp-content/themes/modular/css/images/check-yes.png) right center;
+    background: no-repeat url(/img/check-yes.png) right center;
     background-size: contain
 }
 
